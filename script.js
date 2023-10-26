@@ -21,6 +21,13 @@ class Dog extends Animal {
 	bark(){
 		console.log("woof");
 	}
+	get species(){
+		return this.species;
+	}
+	set species(spc){
+		this.species = spc;
+	}
+	
 }
 
 class Cat extends Animal {
@@ -29,6 +36,12 @@ class Cat extends Animal {
 	}
 	purr(){
 		console.log("purr");
+	}
+	get species(){
+		return this.species;
+	}
+	set species(spc){
+		this.species = spc;
 	}
 }
 
